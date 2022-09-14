@@ -18,6 +18,7 @@ eksempel = "utenfor funksjon"  # en global variabel
 def funksjon2():
   eksempel = "inni funksjon"  # en lokal variabel 
   print(eksempel)             # skriver ut: inni funksjon
-
+h=8
+h=9
 funksjon2()
 print(eksempel)  # skriver ut: utenfor funksjon
